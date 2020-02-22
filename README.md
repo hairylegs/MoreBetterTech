@@ -1,2 +1,0 @@
-# MoreBetterTech
-Created with CodeSandbox

@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top50 {
+  font-size:48px;
+  margin-top:50px;
+  width:100%;
+  text-align:center;
+}
+
+}
+.App {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.NavBar {
+  border-bottom: 1px groove rgb(221, 221, 221);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+a:visited:link {
+  text-decoration: none;
+  color: gray;
+}
+
+a:active:link {
+  text-decoration: none;
+  color: gray;
+}
+
+a {
+  display: flex;
+  align-items: center;
+
+}
+
+.Fluff {
+  padding-left: 5px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 10px;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin-top:50px;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(10, 9, 9, 0.842);
+  color: white;
+}
+
+H1 {text-align:center;text-transform:uppercase;}
